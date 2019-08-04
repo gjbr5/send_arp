@@ -14,6 +14,5 @@ void send_arp(const char *interface,
               const uint8_t ti[IP_LEN],
               const uint16_t opcode,
               uint8_t reqmac[MAC_LEN] = nullptr);
-void recv_arp(const char *interface, const uint8_t si[IP_LEN], uint8_t sm[MAC_LEN]);
 
 #endif // ARPCTL_H
